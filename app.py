@@ -13,8 +13,8 @@ app = Flask(__name__)
 
 #static route
 @app.route("/")
-def hello():
-    return "Hello World!"
+def home():
+    return("Hello! My name is Elizabeth Gonzalez. I am a first year at CU and my intended major is astrophysics.")
 
 #start the server
 if __name__ == "__main__":
