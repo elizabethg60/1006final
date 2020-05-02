@@ -14,8 +14,8 @@ app = Flask(__name__)
 #static route
 @app.route("/")
 def home():
-    return("Hello! My name is Elizabeth Gonzalez. I am a first year at CU and my intended major is astrophysics.")
-
+    return render_template('index.html')
+    
 #start the server
 if __name__ == "__main__":
     app.run()
